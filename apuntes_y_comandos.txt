@@ -1,0 +1,28 @@
+npx create-react-app mi-primera-app //con esto creamos nuestra primera app, importante que la terminal este en la carpeta donde lo guardaremos
+  cd mi-primera-app
+  npm start    //comandos para iniciarla
+
+
+Componente siempre empieza en MAYUSCULAS es una norma obligatoria
+
+para instalar react bootstrap es necesario usar el comando yarn add react-bootstrap bootstrap
+
+es posible que no se pueda instalar por un problema que dice "No se puede cargar el archivo .ps1 porque en el sistema está deshabilitada la ejecución de scripts" 
+este se arregla usando el comando "Set-ExecutionPolicy Unrestricted", esto se usa en el powershell en administrador
+despues de esto ya iniciamos el proyecto con yarn start o npm start
+
+Hook de estado sirve para crear estados en nuestros componentes
+un estado es reactivo, cuando un estado se modifica, el estado como sus hijos se actualizan 
+
+necesitamos importar useState
+
+const [count, setCount] = useState(0);
+count es el valor del estado, setCount es la funcion que se encarga de actualizar el estado, se inicializa el estado con un valor
+
+
+Hook de efecto se usa cuando el componente ya ha sido montado, cierto código se ejectua despues de que el componente se allá renderizado
+
+
+React rooter Dom 
+
+para instalarlo usamos "yarn add react-router-dom"
